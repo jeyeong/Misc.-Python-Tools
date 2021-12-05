@@ -1,0 +1,3 @@
+this is a sentence with lower caps.
+THIS IS ONE WITH UPPER CAPS.
+This oNe HAS weird caps!and ODD Punctuation?  It's STRANGE
