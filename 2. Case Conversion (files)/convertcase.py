@@ -6,7 +6,6 @@ upper, lower, alternating, or random case.
 import sys
 from random import random
 
-
 def proper(string):
   """
   Converts string to proper case.
@@ -32,7 +31,6 @@ def proper(string):
   propercase(string[prev_ptr:])    # remaining part of the string
   return ''.join(proper_cased)
 
-
 def alternating(string):
   """
   Converts string to alternating case. e.g., abcd -> AbCd
@@ -49,7 +47,6 @@ def alternating(string):
     ptr += 1
   return ''.join(alternating)
 
-
 def random_cased(string):
   """
   Converts string to random case.
@@ -61,7 +58,6 @@ def random_cased(string):
     else: random_cased.append(string[ptr].lower())
     ptr += 1
   return ''.join(random_cased)
-
 
 def convertcase(string, mode=0):
   """
@@ -80,7 +76,6 @@ def convertcase(string, mode=0):
   else:
     print(f'Error: Mode not recognized.')
     quit()
-
 
 if __name__ == '__main__':
   if len(sys.argv) == 1:

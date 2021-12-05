@@ -1,6 +1,6 @@
 """
-Split and interactively page a string (stdin, for stream redirection)
-or file of text
+Split and interactively page a string (stdin, for stream
+redirection) or file of text
 """
 
 import sys

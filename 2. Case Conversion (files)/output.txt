@@ -1,3 +1,0 @@
-this is a sentence with lower caps.
-this is one with upper caps.
-this one has weird caps!and odd punctuation?  it's strange
